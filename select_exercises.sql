@@ -9,7 +9,7 @@ WHERE artist = 'Pink Floyd';
 
 SELECT release_date
 FROM albums
-WHERE name = 'Sgt. Peppers Lonely Hearts Club Band';
+WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
 SELECT genre
 FROM albums
