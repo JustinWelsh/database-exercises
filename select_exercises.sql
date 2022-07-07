@@ -1,5 +1,7 @@
 USE codeup_test_db;
 
+-- THE COMMAND TO RUN THIS FILE === mysql -u codeup_test_user -p < select_exercises.sql;
+
 --         id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 --         artist VARCHAR(50),
 --         name VARCHAR(100) NOT NULL,
