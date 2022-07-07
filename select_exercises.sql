@@ -32,4 +32,5 @@ WHERE name = 'Sgt. Peppers Lonely Hearts Club Band';
 
 SELECT name
 FROM albums
-WHERE genre = 'Rock';
+WHERE genre = 'Rock'; --Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?
+
