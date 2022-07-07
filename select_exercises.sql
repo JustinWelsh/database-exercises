@@ -27,3 +27,5 @@ SELECT name
 FROM albums
 WHERE genre = 'Rock';
 
+SELECT * FROM albums WHERE id = 1;
+
