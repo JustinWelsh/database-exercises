@@ -18,5 +18,3 @@ DESCRIBE albums;
 
 ALTER TABLE albums
 ADD UNIQUE (name);
-
-# INSERT INTO albums ()
