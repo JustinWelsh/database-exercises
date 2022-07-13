@@ -34,6 +34,13 @@ FROM employees AS e
 WHERE YEAR(dm.to_date) = 9999 AND e.gender = 'F'
 ORDER BY d.dept_name;
 
+# SELECT departments.dept_name as department, CONCAT(employees.first_name, ' ', employees.last_name) as department_manager
+# FROM employees
+#          JOIN dept_manager AS dm ON employees.emp_no = dm.emp_No
+#          JOIN departments  ON departments.dept_no = dm.dept_no
+# WHERE YEAR(dm.to_date) = 9999 AND employees.gender = 'F'
+# ORDER BY departments.dept_name;
+
 #EXAMPLE
 # +------------------+--------------------+
 # | Department Name  | Department Manager |
